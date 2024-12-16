@@ -52,15 +52,9 @@ export function HomePage() {
           Ready to get verified?
         </h2>
         <p className="text-indigo-700 mb-6">
-          Start your verification process now with our secure KYC solution
+          Start your verification process now with our secure KYC solution by clicking on navbar
         </p>
-        <a
-          href="/upload"
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
-        >
-          Start Verification
-          <Upload className="ml-2 h-5 w-5" />
-        </a>
+        
       </div>
     </div>
   );
